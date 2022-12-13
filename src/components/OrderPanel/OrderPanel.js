@@ -139,10 +139,10 @@ const OrderPanel = props => {
           {subTitleText ? <div className={css.orderHelp}>{subTitleText}</div> : null}
         </div>
         <p className={css.price}>{formatMoney(intl, price)}</p>
-        <div className={css.author}>
+        {/* <div className={css.author}>
           <AvatarSmall user={author} className={css.providerAvatar} />
           <FormattedMessage id="OrderPanel.soldBy" values={{ name: authorDisplayName }} />
-        </div>
+        </div> */}
 
         {showBookingDatesForm ? (
           <BookingDatesForm

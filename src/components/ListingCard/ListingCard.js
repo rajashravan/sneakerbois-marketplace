@@ -134,7 +134,7 @@ ListingCardComponent.defaultProps = {
   rootClassName: null,
   renderSizes: null,
   setActiveListing: null,
-  showAuthorInfo: true,
+  showAuthorInfo: false,
 };
 
 ListingCardComponent.propTypes = {
