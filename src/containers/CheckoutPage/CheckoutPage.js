@@ -847,12 +847,12 @@ export class CheckoutPageComponent extends Component {
           <div className={css.bookListingContainer}>
             <div className={css.heading}>
               <h1 className={css.title}>{title}</h1>
-              <div className={css.author}>
+              {/* <div className={css.author}>
                 <FormattedMessage
                   id="CheckoutPage.providerInfo"
                   values={{ name: currentAuthor.attributes.profile.displayName }}
                 />
-              </div>
+              </div> */}
             </div>
 
             <div className={css.priceBreakdownContainer}>
@@ -920,9 +920,9 @@ export class CheckoutPageComponent extends Component {
                 variants={variants}
               />
             </AspectRatioWrapper>
-            <div className={css.avatarWrapper}>
+            {/* <div className={css.avatarWrapper}>
               <AvatarMedium user={currentAuthor} disableProfileLink />
-            </div>
+            </div> */}
             <div className={css.detailsHeadings}>
               <h2 className={css.detailsTitle}>{listingTitle}</h2>
               <p className={css.detailsSubtitle}>{detailsSubTitle}</p>

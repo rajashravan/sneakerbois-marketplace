@@ -20,6 +20,8 @@ const SectionAuthorMaybe = props => {
     onManageDisableScrolling,
   } = props;
 
+  return null;
+
   if (!listing.author) {
     return null;
   }
